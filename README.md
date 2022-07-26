@@ -99,7 +99,7 @@ test_db=# \l
 
 - создайте пользователя test-admin-user и БД test_db
 
-Создается при запуске манифест файла. Команда создания пользователя `test_db=# CREATE USER "test-admin-user";`. 
+Создается при запуске манифест файла. Команда создания пользователя `CREATE USER "test-admin-user";`. 
 Команда создания БД `CREATE DATABASE test_db;`.
 
 - в БД test_db создайте таблицу orders и clients
